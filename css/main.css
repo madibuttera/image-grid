@@ -16,26 +16,50 @@ html {
   box-sizing: inherit;
 }
 
-.photo {
+section {
   display: flex;
+  flex-wrap: wrap;
 }
 
-img:nth-child(3) {
+.photo:nth-child(2) {
   display: none;
 }
 
-img:nth-child(4) {
+.photo:nth-child(5) {
   display: none;
 }
 
-@media only screen and (mid-width: 25em) {
+body {
+  margin: 0;
+}
+
+img {
+  width: 100%;
+  display: block;
+}
+
+@media only screen and (min-width: 25em) {
+
+  .photo:nth-child(2), .photo:nth-child(3) {
+    width: 50%;
+    display: block;
+  }
+
+  .photo:nth-child(4), .photo:nth-child(5) {
+    width: 50%;
+    display: block;
+  }
 
 }
 
-@media only screen and (mid-width: 38em) {
+@media only screen and (min-width: 38em) {
 
 }
 
-@media only screen and (mid-width: 38em) {
+@media only screen and (min-width: 60em) {
+
+}
+
+@media only screen and (min-width: 90em) {
 
 }
