@@ -15,3 +15,27 @@ html {
 *, *::before, *::after {
   box-sizing: inherit;
 }
+
+.photo {
+  display: flex;
+}
+
+img:nth-child(3) {
+  display: none;
+}
+
+img:nth-child(4) {
+  display: none;
+}
+
+@media only screen and (mid-width: 25em) {
+
+}
+
+@media only screen and (mid-width: 38em) {
+
+}
+
+@media only screen and (mid-width: 38em) {
+
+}
